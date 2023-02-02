@@ -40,6 +40,39 @@ header nav a {
     column-gap: 8px;
 }
 
+#landing div {
+    width: 50%;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 8px;
+}
+
+#about div {
+    width: 50%;
+}
+
+.about_stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 16px 32px;
+    gap:50px;
+    margin-top: 16px;
+}
+
+.about_bar {
+    width: 250%;
+    height: 10px;
+    background-color: #FFBF00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.8rem;
+}
+
 h1 {
     font-weight: 700;
     font-size: 36px;
