@@ -29,16 +29,23 @@ p {
     margin: 0 0 16px 0;
 }
 
+button {
+    border: 0;
+    border-radius: 15px;
+}
+
 .btn {
     background-color: var(--color-primary);
     color: var(--color-text-white);
     padding: 8px 24px;
+    border-radius: 15px;
 }
 
 .btn:hover {
     background: transparent;
     border: 2px solid var(--color-primary);
     color: var(--color-text-dark) ;
+    border-radius: 15px;
 }
 
 .btn_alt {
@@ -46,4 +53,5 @@ p {
     color: var(--color-text-dark);
     margin-right: 16px;
     border: 2px solid var(--color-primary);
+    border-radius: 15px;
 }
