@@ -2,6 +2,18 @@
     font-family: "Poppins";
 }
 
+:root {
+    --color-primary: #FFBF00;
+    --color-light: #fff;
+    --color-text-white: #fff;
+    --color-text-grey: #979797;
+    --color-text-dark: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
 h1 {
     font-weight: 700;
     font-size: 24px;
@@ -9,19 +21,29 @@ h1 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--color-text-dark);
 }
 
 p {
-    color: #979797;
+    color: var(--color-text-grey);
+    margin: 0 0 16px 0;
 }
 
 .btn {
-    background-color: #FFBF00;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+    padding: 8px 24px;
 }
 
-.btn-alt {
-    background-color: white;
-    color: black;
+.btn:hover {
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    color: var(--color-text-dark) ;
+}
+
+.btn_alt {
+    background-color: var(--color-light);
+    color: var(--color-text-dark);
+    margin-right: 16px;
+    border: 2px solid var(--color-primary);
 }
