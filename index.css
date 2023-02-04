@@ -73,6 +73,36 @@ header nav a {
     padding: 0 1.8rem;
 }
 
+.services_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 8px;
+}
+
+.services_details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 12px;
+    margin-top: 2.5rem;
+}
+
+section > div > div > img {
+    border-radius: 15px;
+}
+
+.services_details_item img {
+    width: 75%;
+}
+
+.services_details_item h2 {
+    margin-top: 0.8rem;
+}
+
+.services_details_item p {
+    font-size:16px;
+}
+
 h1 {
     font-weight: 700;
     font-size: 36px;
