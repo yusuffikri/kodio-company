@@ -1,5 +1,7 @@
 * {
     font-family: "Poppins";
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -10,7 +12,7 @@
     --color-text-dark: #000;
 }
 
-html {
+html, body {
     scroll-behavior:smooth;
   }
 
@@ -185,4 +187,22 @@ button {
     margin-right: 16px;
     border: 2px solid var(--color-primary);
     border-radius: 15px;
+}
+
+footer {
+    padding: 16px 64px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > img {
+    display: flex;
+    gap: 16px;
+}
+
+footer p {
+    color: var(--color-text-white);
 }
